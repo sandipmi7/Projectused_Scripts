@@ -1,0 +1,16 @@
+  - name: launch new instance + user data
+      amazon.aws.ec2_instance:
+        name: amazonlinux2a
+        region: ap-south-1
+        key_name: Staging
+        instance_type: t2.micro
+        
+        image_id: ami-03a933af70fa97ad2
+        volumes: 
+          - device_name: /dev/xvda
+            ebs: 
+              volume_size: 8
+              volume_type: gp2
+              delete_on_termination: true
+      tags:
+        - ec2_create

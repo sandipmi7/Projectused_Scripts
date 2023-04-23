@@ -1,0 +1,13 @@
+delete: s3://mysqlbackupq/0230420-234001/deepcogen.sql.gz
+delete: s3://mysqlbackupq/0230420-234501/deepcogen.sql.gz
+delete: s3://mysqlbackupq/0230420-235001/deepcogen.sql.gz
+delete: s3://mysqlbackupq/0230421-000001/deepcogen.sql.gz
+delete: s3://mysqlbackupq/0230421-000501/deepcogen.sql.gz
+delete: s3://mysqlbackupq/0230421-001001/deepcogen.sql.gz
+delete: s3://mysqlbackupq/0230421-000001/deepcogen.sql.gz
+delete: s3://mysqlbackupq/0230421-002501/deepcogen.sql.gz
+delete: s3://mysqlbackupq/0230421-002001/deepcogen.sql.gz
+delete: s3://mysqlbackupq/0230421-001001/deepcogen.sql.gz
+delete: s3://mysqlbackupq/0230421-003001/deepcogen.sql.gz
+delete: s3://mysqlbackupq/0230421-001501/deepcogen.sql.gz
+delete: s3://mysqlbackupq/0230421-000501/deepcogen.sql.gz
